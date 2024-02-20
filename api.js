@@ -28,4 +28,4 @@ const fetchAPI = async() =>
         return find;
     })
 }
-window.onload = () => digiAPI();
+ digiAPI();
