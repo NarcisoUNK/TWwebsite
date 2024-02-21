@@ -1,30 +1,28 @@
 <!DOCTYPE html>
-<html lang = "pt-PT">
+<html lang="pt-PT">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-<link rel ="stylesheet" href="style.css">
-
-<title>Digi API</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Digi API</title>
 </head>
 <body>
-    <section id = "container-sec">
-        <div class = "card" id =  "poke-sec">
+<section id="container-sec">
+    <div class="card" id="poke-sec">
+        <div class="card-img-container">
             <img class="card-img-top" src="./img/belzeemon.png" id="img-digi">
-            <div class = "card-body">
-                <h5 class="card-title">Digicard</h5>
-                <p class="card-text">Nível: <span id="digi-level"></span>, Nome: <span id="digi-name"></span></p>
-
-            </div>
+            <p class="card-text">Nível: <span id="digi-level"></span>, Nome: <span id="digi-name"></span></p>
         </div>
-    </section>
+        <div class="card-body">
+            <h5 class="card-title">Digicard</h5>
+        </div>
+    </div>
+</section>
 
-
-<div id = "container-input">
-    <input type = "text" name ="" id = "input" placeholder="Name of Digimon">
+<div id="container-input">
+    <input type="text" name="" id="input" placeholder="Name of Digimon">
 </div>
 
-<script src =  "./api.js"></script>
+<script src="./api.js"></script>
 </body>
 </html>

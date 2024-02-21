@@ -17,7 +17,7 @@ function digiAPI() {
 
         if (find) {
             const { name, level, img } = find;
-            digiText.innerText = `Nível: ${level}, Nome: ${name}`;
+            digiText.innerText = `Nível: ${level}, Nome: ${name}`;  
             digiTitle.innerHTML = name;
             imgDigi.src = img;
         } else {
