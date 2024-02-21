@@ -7,12 +7,12 @@
     <title>Digi API</title>
 </head>
 <body>
-    <button class="open-btn" onclick="toggleNav()">Open Navbar</button>
     <div class="sidebar" id="sidebar">
         <a href="#" class="active">Home</a>
         <a href="#">About</a>
         <a href="#">Services</a>
         <a href="#">Contact</a>
+        <button class="close-btn" onclick="toggleNav()">Close Navbar</button>
     </div>
 <section id="container-sec">
     <div class="card" id="poke-sec">
@@ -28,6 +28,11 @@
         </div>
     </div>
 </section>
+<button class="open-btn" onclick="toggleNav()">
+    <img src="./img/agumon.jpg" alt="Open Navbar">
+</button>
+
+<script src="https://code.jquery.com/jquery-3.6"></script>
 <script src="navbar.js"></script>
 <script src="./api.js"></script>
 </body>

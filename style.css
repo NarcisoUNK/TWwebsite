@@ -19,6 +19,8 @@ body {
     padding-top: 20px;
     transition: 0.5s;
     overflow-x: hidden;
+    align-items: center;
+    text-align: center;
 }
 
 .sidebar a {
@@ -38,17 +40,29 @@ body {
     padding: 20px;
     transition: margin-left 0.5s;
 }
-
-.open-btn {
-    position: absolute;
+.open-btn img {
+    width: 50px; /* Adjust the width and height as needed */
+    height: 50px;
+    border-radius: 50%;
+}
+.open-btn{
+    position: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
     top: 10px;
-    left: 10px;
+    z-index: 2;
+    border-radius: 50%;
+}
+.close-btn {
     background-color: orange;
     color: white;
     padding: 10px;
     border: none;
     cursor: pointer;
     z-index: 2;
+    top: 10px;
+    left: 10px;
 }
 #poke-sec {
     width: 250px;
