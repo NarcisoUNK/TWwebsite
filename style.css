@@ -9,7 +9,47 @@ body {
     background-size: cover;
     margin: 50px 0 0 0;
 }
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 20px;
+    transition: 0.5s;
+    overflow-x: hidden;
+}
 
+.sidebar a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+}
+
+.sidebar a:hover {
+    background-color: #555;
+}
+
+.content {
+    margin-left: 0;
+    padding: 20px;
+    transition: margin-left 0.5s;
+}
+
+.open-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+}
 #poke-sec {
     width: 250px;
     height: 400px;
